@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/exchange/static/js/main.caec2d1e.js",
+    "index.html": "/exchange/index.html",
+    "main.caec2d1e.js.map": "/exchange/static/js/main.caec2d1e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.caec2d1e.js"
+  ]
+}
