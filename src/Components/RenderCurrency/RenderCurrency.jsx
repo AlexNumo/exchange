@@ -19,14 +19,6 @@ const RenderCurrency = () => {
     fetchItem();
   }, [setRate]);
 
-  // const date = Date.now();
-  function getCurrentDate(separator=''){
-    let newDate = new Date()
-    let date = newDate.getDate();
-    let month = newDate.getMonth() + 1;
-    let year = newDate.getFullYear();
-  return `${year}${separator}.${month<10?`0${month}`:`${month}`}${separator}.${date}`
-  }
     if (rate != null) {
       const USDbuy = rate[25].rate;
       const EURbuy = rate[32].rate;
@@ -34,7 +26,6 @@ const RenderCurrency = () => {
       <CurrencyPosition>
         <Container>
         <h2>Currency converter</h2>
-        <p>Today: {getCurrentDate()}</p>
         <h4>USD: {USDbuy}</h4>
         <h4>EUR: {EURbuy}</h4>
         <Convertation

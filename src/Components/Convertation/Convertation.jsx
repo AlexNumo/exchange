@@ -17,15 +17,12 @@ const Convertation = ({USDbuy, EURbuy}) => {
   const [selectedTwo, setSelectedTwo] = useState(options[0].value);
   
   const handleChangeOne = event => {
-    console.log(event.target.value);
     setSelectedOne(event.target.value);
   };
 
     const handleChangeTwo = event => {
-      console.log(event.target.value);
     setSelectedTwo(event.target.value);
   };
-
 
     useEffect(() => {
       function ExchangeCurrency() {
