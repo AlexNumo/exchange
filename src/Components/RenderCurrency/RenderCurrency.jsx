@@ -36,11 +36,7 @@ const RenderCurrency = () => {
     </CurrencyPosition>
     )}
 
-    return (
-      <div>
-        <h2>Please wait...</h2>
-      </div>
-    );
+    return (null);
 }
   
 export default RenderCurrency;
